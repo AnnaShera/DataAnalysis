@@ -1,0 +1,3 @@
+instance_data_str = 'id:1110,type:micro,state:running,region:oregon%id:1210,type:large1,state:terminated,region:n.virginia%id:1310,type:xlarge3,state:stopped,region:pasific%id:1410,type:large1,state:running,region:oregon'
+volume_data_str = 'id:2101,name:data1,state:available,region:ohio,attached_instance_id:%id:2022,name:data1,state:in-use,region:ohio,attached_instance_id:1110%id:2301,name:data2,state:available,region:london,attached_instance_id:1210%id:2400,name:data2,state:in-use,region:oregon,attached_instance_id:1310'
+snapshot_data_str = 'id:3341,name:data1_backup,region:oregon,source_volume_id:2101%id:3200,name:data2_backup,region:virginia,source_volume_id:2400'
